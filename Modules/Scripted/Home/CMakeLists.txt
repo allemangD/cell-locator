@@ -20,13 +20,7 @@ slicerFunctionAddPythonQtResources(MODULE_PYTHON_QRC_RESOURCES
   ${MODULE_NAME}Lib/${MODULE_NAME}.qrc
   )
 
-#-----------------------------------------------------------------------------
-slicerMacroBuildScriptedModule(
-  NAME ${MODULE_NAME}
-  SCRIPTS ${MODULE_PYTHON_SCRIPTS} ${MODULE_PYTHON_QRC_RESOURCES}
-  RESOURCES ${MODULE_PYTHON_RESOURCES}
-  WITH_GENERIC_TESTS
-  )
+
 
 #-----------------------------------------------------------------------------
 # Convenience function for downloading and installing data files
@@ -417,6 +411,14 @@ configure_file(
   ${MODULE_NAME}Lib/CellLocatorConfig.py.in
   ${CMAKE_CURRENT_BINARY_DIR}/${MODULE_NAME}Lib/CellLocatorConfig.py
   @ONLY
+  )
+
+#-----------------------------------------------------------------------------
+slicerMacroBuildScriptedModule(
+  NAME ${MODULE_NAME}
+  SCRIPTS ${MODULE_PYTHON_SCRIPTS} ${MODULE_PYTHON_QRC_RESOURCES}
+  RESOURCES ${MODULE_PYTHON_RESOURCES}
+  WITH_GENERIC_TESTS
   )
 
 #-----------------------------------------------------------------------------
