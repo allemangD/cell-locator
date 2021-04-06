@@ -3,6 +3,7 @@ set(MODULE_NAME Home)
 
 #-----------------------------------------------------------------------------
 set(ccf_annotation_resolution 25) # Possible values are 25 or 50 (Used in CellLocatorConfig.py)
+set(mni_average_template_filename "mni_icbm152_t1_tal_nlin_sym_09b_hires.nii") # Used in CellLocatorConfig.py
 
 #-----------------------------------------------------------------------------
 set(MODULE_PYTHON_SCRIPTS
@@ -20,7 +21,20 @@ slicerFunctionAddPythonQtResources(MODULE_PYTHON_QRC_RESOURCES
   ${MODULE_NAME}Lib/${MODULE_NAME}.qrc
   )
 
+#-----------------------------------------------------------------------------
+configure_file(
+  ${MODULE_NAME}Lib/CellLocatorConfig.py.in
+  ${CMAKE_CURRENT_BINARY_DIR}/${MODULE_NAME}Lib/CellLocatorConfig.py
+  @ONLY
+  )
 
+#-----------------------------------------------------------------------------
+slicerMacroBuildScriptedModule(
+  NAME ${MODULE_NAME}
+  SCRIPTS ${MODULE_PYTHON_SCRIPTS} ${MODULE_PYTHON_QRC_RESOURCES}
+  RESOURCES ${MODULE_PYTHON_RESOURCES}
+  WITH_GENERIC_TESTS
+  )
 
 #-----------------------------------------------------------------------------
 # Convenience function for downloading and installing data files
@@ -112,7 +126,6 @@ endif()
 message(STATUS "--------------------------")
 message(STATUS "Downloading MNI data files")
 
-set(mni_average_template_filename "mni_icbm152_t1_tal_nlin_sym_09b_hires.nii") # Used in CellLocatorConfig.py
 
 set(mni_average_template_extract_directory ${CellLocator_DOWNLOAD_DIR}/mni_icbm152_nlin_sym_09b_nifti)
 
@@ -406,20 +419,7 @@ CellLocator_install_datafiles(
   ${ccf_layer_ontology_file}
   )
 
-#-----------------------------------------------------------------------------
-configure_file(
-  ${MODULE_NAME}Lib/CellLocatorConfig.py.in
-  ${CMAKE_CURRENT_BINARY_DIR}/${MODULE_NAME}Lib/CellLocatorConfig.py
-  @ONLY
-  )
 
-#-----------------------------------------------------------------------------
-slicerMacroBuildScriptedModule(
-  NAME ${MODULE_NAME}
-  SCRIPTS ${MODULE_PYTHON_SCRIPTS} ${MODULE_PYTHON_QRC_RESOURCES}
-  RESOURCES ${MODULE_PYTHON_RESOURCES}
-  WITH_GENERIC_TESTS
-  )
 
 #-----------------------------------------------------------------------------
 if(BUILD_TESTING)
