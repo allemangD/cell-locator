@@ -1,4 +1,5 @@
 {
+  "version": "0.0.0+2020.04.16",
   "DefaultCameraPosition": [
     0.0,
     0.0,
@@ -36,7 +37,7 @@
   "MarkupLabelFormat": "%N-%d",
   "Markups": [
     {
-      "AssociatedNodeID": "vtkMRMLModelNode20",
+      "AssociatedNodeID": "vtkMRMLModelNode0",
       "CameraPosition": [
         0.0,
         0.0,
@@ -49,7 +50,7 @@
       ],
       "Closed": 1,
       "Description": "",
-      "ID": "vtkMRMLMarkupsSplinesNode_2",
+      "ID": "vtkMRMLMarkupsSplinesNode_0",
       "Label": "Annotation-1",
       "Locked": 1,
       "Ontology": "Structure",
@@ -73,7 +74,7 @@
         {
           "x": 8325.86208677686,
           "y": -4505.0,
-          "z": -1534.5212422520654
+          "z": -1534.5212422520653
         },
         {
           "x": 8304.378518853307,
@@ -83,7 +84,7 @@
         {
           "x": 8290.237086776859,
           "y": -4505.0,
-          "z": -2848.8709000516548
+          "z": -2848.8709000516546
         },
         {
           "x": 8268.753518853307,
@@ -98,12 +99,12 @@
         {
           "x": 7191.446894369832,
           "y": -4505.0,
-          "z": -2586.1947959710707
+          "z": -2586.1947959710706
         },
         {
-          "x": 7216.0586905991799,
+          "x": 7216.0586905991795,
           "y": -4505.0,
-          "z": -1810.4984504132245
+          "z": -1810.4984504132244
         }
       ],
       "Points_Count": "9",

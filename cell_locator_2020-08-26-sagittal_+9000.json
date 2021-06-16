@@ -1,4 +1,5 @@
 {
+  "version": "0.0.0+2020.08.26",
   "markups": [
     {
       "markup": {
@@ -28,7 +29,7 @@
               0.0,
               1.0
             ],
-            "selected": true,
+            "selected": false,
             "locked": false,
             "visibility": true,
             "positionStatus": "defined"
@@ -54,7 +55,7 @@
               0.0,
               1.0
             ],
-            "selected": true,
+            "selected": false,
             "locked": false,
             "visibility": true,
             "positionStatus": "defined"
@@ -80,7 +81,7 @@
               0.0,
               1.0
             ],
-            "selected": true,
+            "selected": false,
             "locked": false,
             "visibility": true,
             "positionStatus": "defined"
@@ -96,8 +97,8 @@
           ],
           "selectedColor": [
             1.0,
-            0.5000076295109483,
-            0.5000076295109483
+            0.5,
+            0.5
           ],
           "propertiesLabelVisibility": true,
           "pointLabelsVisibility": false,

@@ -1,9 +1,11 @@
 {
+  "version": "0.1.0+2020.09.18",
   "markups": [
     {
       "markup": {
         "type": "ClosedCurve",
         "coordinateSystem": "LPS",
+        "coordinateUnits": "um",
         "controlPoints": [
           {
             "id": "1",

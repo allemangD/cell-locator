@@ -1,12 +1,13 @@
 {
+  "version": "0.0.0+2020.04.16",
   "DefaultCameraPosition": [
     5650.125942281189,
     -6581.003053370808,
     -50906.40778424259
   ],
   "DefaultCameraViewUp": [
-    1.0729433520851773e-7,
-    0.9999999904178784,
+    1.0729433520851773e-07,
+    0.9999999904178783,
     0.00013843493715756834
   ],
   "DefaultOntology": "Structure",
@@ -30,21 +31,21 @@
     0.0,
     1.0
   ],
-  "DefaultStepSize": 24.999999999999998,
+  "DefaultStepSize": 24.999999999999996,
   "DefaultThickness": 50.0,
   "Locked": 0,
   "MarkupLabelFormat": "%N-%d",
   "Markups": [
     {
-      "AssociatedNodeID": "vtkMRMLModelNode5",
+      "AssociatedNodeID": "vtkMRMLModelNode0",
       "CameraPosition": [
         5650.125942281189,
         -6581.003053370808,
         -50906.40778424259
       ],
       "CameraViewUp": [
-        1.0729433520851773e-7,
-        0.9999999904178784,
+        1.0729433520851773e-07,
+        0.9999999904178783,
         0.00013843493715756834
       ],
       "Closed": 1,
@@ -98,7 +99,7 @@
         0.0,
         1.0
       ],
-      "StepSize": 24.999999999999998,
+      "StepSize": 24.999999999999996,
       "Thickness": 50.0,
       "Visibility": 1
     }
