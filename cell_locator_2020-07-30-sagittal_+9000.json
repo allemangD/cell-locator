@@ -1,0 +1,111 @@
+{
+  "DefaultCameraPosition": [
+    -38939.73251362365,
+    -6646.677272429644,
+    -4024.2141182618236
+  ],
+  "DefaultCameraViewUp": [
+    -0.0008227097633355426,
+    -0.0000010909776940947267,
+    0.9999996615736704
+  ],
+  "DefaultOntology": "Structure",
+  "DefaultReferenceView": "Sagittal",
+  "DefaultRepresentationType": "polyline",
+  "DefaultSplineOrientation": [
+    0.0,
+    0.0,
+    1.0,
+    9000.0,
+    -1.0,
+    0.0,
+    0.0,
+    -6587.499999999999,
+    0.0,
+    1.0,
+    0.0,
+    -3987.4999999999997,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "DefaultStepSize": 1.0,
+  "DefaultThickness": 50.0,
+  "Locked": 0,
+  "MarkupLabelFormat": "%N-%d",
+  "Markups": [
+    {
+      "AssociatedNodeID": "vtkMRMLModelNode5",
+      "CameraPosition": [
+        -38939.73251362365,
+        -6646.677272429644,
+        -4024.2141182618236
+      ],
+      "CameraViewUp": [
+        -0.0008227097633355426,
+        -0.0000010909776940947267,
+        0.9999996615736704
+      ],
+      "Closed": 1,
+      "Description": "",
+      "ID": "vtkMRMLMarkupsSplinesNode_0",
+      "Label": "Annotation-1",
+      "Locked": 1,
+      "Ontology": "Structure",
+      "OrientationWXYZ": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Points": [
+        {
+          "x": 9000.0,
+          "y": -12638.539697542532,
+          "z": -3871.0538752362938
+        },
+        {
+          "x": 9000.0,
+          "y": -10517.556710775047,
+          "z": -4120.581285444233
+        },
+        {
+          "x": 9000.0,
+          "y": -10317.934782608694,
+          "z": -2423.7948960302448
+        }
+      ],
+      "Points_Count": "3",
+      "ReferenceView": "Sagittal",
+      "RepresentationType": "polyline",
+      "Selected": 1,
+      "SplineOrientation": [
+        0.0,
+        0.0,
+        1.0,
+        9000.0,
+        -1.0,
+        0.0,
+        0.0,
+        -6587.499999999999,
+        0.0,
+        1.0,
+        0.0,
+        -3987.4999999999997,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "StepSize": 1.0,
+      "Thickness": 50.0,
+      "Visibility": 1
+    }
+  ],
+  "Markups_Count": 1,
+  "TextList": [
+    null
+  ],
+  "TextList_Count": 0
+}

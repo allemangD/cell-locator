@@ -1,0 +1,111 @@
+{
+  "DefaultCameraPosition": [
+    5876.422909878598,
+    -51206.84754606922,
+    -4025.8656958242647
+  ],
+  "DefaultCameraViewUp": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "DefaultOntology": "Structure",
+  "DefaultReferenceView": "Coronal",
+  "DefaultRepresentationType": "polyline",
+  "DefaultSplineOrientation": [
+    1.0,
+    0.0,
+    0.0,
+    5686.499999999999,
+    0.0,
+    0.0,
+    1.0,
+    -11000.0,
+    0.0,
+    1.0,
+    0.0,
+    -3987.4999999999997,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "DefaultStepSize": 24.999999999999998,
+  "DefaultThickness": 50.0,
+  "Locked": 0,
+  "MarkupLabelFormat": "%N-%d",
+  "Markups": [
+    {
+      "AssociatedNodeID": "vtkMRMLModelNode5",
+      "CameraPosition": [
+        5876.422909878598,
+        -51206.84754606922,
+        -4025.8656958242647
+      ],
+      "CameraViewUp": [
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Closed": 1,
+      "Description": "",
+      "ID": "vtkMRMLMarkupsSplinesNode_0",
+      "Label": "Annotation-1",
+      "Locked": 1,
+      "Ontology": "Structure",
+      "OrientationWXYZ": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Points": [
+        {
+          "x": 4865.690751445086,
+          "y": -11000.0,
+          "z": -1128.1551059730246
+        },
+        {
+          "x": 5674.939306358381,
+          "y": -11000.0,
+          "z": -5058.790944123311
+        },
+        {
+          "x": 2692.280346820809,
+          "y": -11000.0,
+          "z": -1891.1608863198454
+        }
+      ],
+      "Points_Count": "3",
+      "ReferenceView": "Coronal",
+      "RepresentationType": "polyline",
+      "Selected": 1,
+      "SplineOrientation": [
+        1.0,
+        0.0,
+        0.0,
+        5686.499999999999,
+        0.0,
+        0.0,
+        1.0,
+        -11000.0,
+        0.0,
+        1.0,
+        0.0,
+        -3987.4999999999997,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "StepSize": 24.999999999999998,
+      "Thickness": 50.0,
+      "Visibility": 1
+    }
+  ],
+  "Markups_Count": 1,
+  "TextList": [
+    null
+  ],
+  "TextList_Count": 0
+}

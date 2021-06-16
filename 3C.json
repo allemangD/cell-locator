@@ -1,0 +1,146 @@
+{
+  "DefaultCameraPosition": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "DefaultCameraViewUp": [
+    0.0,
+    1.0,
+    0.0
+  ],
+  "DefaultOntology": "Structure",
+  "DefaultReferenceView": "Coronal",
+  "DefaultRepresentationType": "polyline",
+  "DefaultSplineOrientation": [
+    1.0,
+    0.0,
+    0.0,
+    5686.499999999999,
+    0.0,
+    0.0,
+    1.0,
+    -3825.0,
+    0.0,
+    1.0,
+    0.0,
+    -3987.5,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+  ],
+  "DefaultStepSize": 1.0,
+  "DefaultThickness": 600.0,
+  "Locked": 0,
+  "MarkupLabelFormat": "%N-%d",
+  "Markups": [
+    {
+      "AssociatedNodeID": "vtkMRMLModelNode15",
+      "CameraPosition": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "CameraViewUp": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "Closed": 1,
+      "Description": "",
+      "ID": "vtkMRMLMarkupsSplinesNode_0",
+      "Label": "Annotation-1",
+      "Locked": 1,
+      "Ontology": "Structure",
+      "OrientationWXYZ": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Points": [
+        {
+          "x": 7346.721911468808,
+          "y": -3825.0,
+          "z": -1337.5867731388308
+        },
+        {
+          "x": 7365.754406438624,
+          "y": -3825.0,
+          "z": -2195.39247484909
+        },
+        {
+          "x": 7374.782655935613,
+          "y": -3825.0,
+          "z": -3089.189175050301
+        },
+        {
+          "x": 7663.686639839028,
+          "y": -3825.0,
+          "z": -3278.782414486892
+        },
+        {
+          "x": 7871.336378269612,
+          "y": -3825.0,
+          "z": -3594.7711468812788
+        },
+        {
+          "x": 8873.472072434604,
+          "y": -3825.0,
+          "z": -3775.336136820846
+        },
+        {
+          "x": 8872.984074446676,
+          "y": -3825.0,
+          "z": -3224.612917505013
+        },
+        {
+          "x": 8862.85782947685,
+          "y": -3825.0,
+          "z": -2293.483224346058
+        },
+        {
+          "x": 8683.878832997987,
+          "y": -3825.0,
+          "z": -2096.0817303822916
+        },
+        {
+          "x": 8033.844869215288,
+          "y": -3825.0,
+          "z": -1653.6975050301772
+        }
+      ],
+      "Points_Count": "10",
+      "ReferenceView": "Coronal",
+      "RepresentationType": "polyline",
+      "Selected": 1,
+      "SplineOrientation": [
+        1.0,
+        0.0,
+        0.0,
+        5686.499999999999,
+        0.0,
+        0.0,
+        1.0,
+        -3825.0,
+        0.0,
+        1.0,
+        0.0,
+        -3987.5,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "StepSize": 1.0,
+      "Thickness": 600.0,
+      "Visibility": 1
+    }
+  ],
+  "Markups_Count": 1,
+  "TextList": [
+    null
+  ],
+  "TextList_Count": 0
+}

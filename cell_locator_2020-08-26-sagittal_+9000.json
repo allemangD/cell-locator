@@ -1,0 +1,163 @@
+{
+  "markups": [
+    {
+      "markup": {
+        "type": "ClosedCurve",
+        "coordinateSystem": "LPS",
+        "locked": false,
+        "labelFormat": "%N-%d",
+        "controlPoints": [
+          {
+            "id": "1",
+            "label": "MarkupsClosedCurve-1",
+            "description": "",
+            "associatedNodeID": "vtkMRMLScalarVolumeNode1",
+            "position": [
+              -9000.0,
+              12610.891812865495,
+              -3831.5545808966863
+            ],
+            "orientation": [
+              -1.0,
+              -0.0,
+              -0.0,
+              -0.0,
+              -1.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "selected": true,
+            "locked": false,
+            "visibility": true,
+            "positionStatus": "defined"
+          },
+          {
+            "id": "2",
+            "label": "MarkupsClosedCurve-2",
+            "description": "",
+            "associatedNodeID": "vtkMRMLScalarVolumeNode1",
+            "position": [
+              -9000.0,
+              10552.412280701752,
+              -4135.648148148148
+            ],
+            "orientation": [
+              -1.0,
+              -0.0,
+              -0.0,
+              -0.0,
+              -1.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "selected": true,
+            "locked": false,
+            "visibility": true,
+            "positionStatus": "defined"
+          },
+          {
+            "id": "3",
+            "label": "MarkupsClosedCurve-3",
+            "description": "",
+            "associatedNodeID": "vtkMRMLScalarVolumeNode1",
+            "position": [
+              -9000.0,
+              10318.494152046782,
+              -2381.2621832358673
+            ],
+            "orientation": [
+              -1.0,
+              -0.0,
+              -0.0,
+              -0.0,
+              -1.0,
+              -0.0,
+              0.0,
+              0.0,
+              1.0
+            ],
+            "selected": true,
+            "locked": false,
+            "visibility": true,
+            "positionStatus": "defined"
+          }
+        ],
+        "display": {
+          "visibility": true,
+          "opacity": 1.0,
+          "color": [
+            0.4,
+            1.0,
+            1.0
+          ],
+          "selectedColor": [
+            1.0,
+            0.5000076295109483,
+            0.5000076295109483
+          ],
+          "propertiesLabelVisibility": true,
+          "pointLabelsVisibility": false,
+          "textScale": 3.0,
+          "glyphType": "Sphere3D",
+          "glyphScale": 1.0,
+          "glyphSize": 5.0,
+          "useGlyphScale": true,
+          "sliceProjection": false,
+          "sliceProjectionUseFiducialColor": true,
+          "sliceProjectionOutlinedBehindSlicePlane": false,
+          "sliceProjectionColor": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "sliceProjectionOpacity": 0.6,
+          "lineThickness": 0.2,
+          "lineColorFadingStart": 1.0,
+          "lineColorFadingEnd": 10.0,
+          "lineColorFadingSaturation": 1.0,
+          "lineColorFadingHueOffset": 0.0,
+          "handlesInteractive": false,
+          "snapMode": "toVisibleSurface"
+        }
+      },
+      "orientation": [
+        0.0,
+        0.0,
+        1.0,
+        9000.0,
+        -1.0,
+        0.0,
+        0.0,
+        -6587.499999999999,
+        0.0,
+        1.0,
+        0.0,
+        -3987.4999999999995,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "representationType": "polyline",
+      "thickness": 50
+    }
+  ],
+  "currentId": 0,
+  "referenceView": "Sagittal",
+  "ontology": "Structure",
+  "stepSize": 1.0,
+  "cameraPosition": [
+    -40306.98209152624,
+    -6656.611126105723,
+    -4012.706613587324
+  ],
+  "cameraViewUp": [
+    -0.0005480523195005237,
+    -8.235295504665925e-07,
+    0.9999998498189773
+  ]
+}

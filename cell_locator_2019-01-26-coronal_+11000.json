@@ -1,0 +1,78 @@
+{
+  "Locked": 0,
+  "MarkupLabelFormat": "%N-%d",
+  "Markups": [
+    {
+      "AssociatedNodeID": "vtkMRMLModelNode8",
+      "CameraPosition": [
+        5099.480409508405,
+        19129.30942546882,
+        -3120.344019156723
+      ],
+      "CameraViewUp": [
+        0.015046495527523968,
+        -0.03335339680642803,
+        0.9993303527331755
+      ],
+      "Closed": 1,
+      "Description": "",
+      "ID": "vtkMRMLMarkupsSplinesNode_4",
+      "Label": "Annotation-1",
+      "Locked": 0,
+      "Ontology": "Structure",
+      "OrientationWXYZ": [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "Points": [
+        {
+          "x": 6548.451219512193,
+          "y": -11000.0,
+          "z": -1118.9634146341469
+        },
+        {
+          "x": 5686.499999999998,
+          "y": -11000.0,
+          "z": -5067.256097560975
+        },
+        {
+          "x": 8717.231707317093,
+          "y": -11000.0,
+          "z": -1925.304878048778
+        }
+      ],
+      "Points_Count": "3",
+      "ReferenceView": "Coronal",
+      "RepresentationType": "polyline",
+      "Selected": 1,
+      "SplineOrientation": [
+        -1.0,
+        0.0,
+        0.0,
+        5686.499999999999,
+        0.0,
+        0.0,
+        -1.0,
+        -11000.0,
+        0.0,
+        1.0,
+        0.0,
+        -3987.4999999999997,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "StepSize": 1.0,
+      "Thickness": 50.0,
+      "Visibility": 1
+    }
+  ],
+  "Markups_Count": 1,
+  "TextList": [
+    null
+  ],
+  "TextList_Count": 0
+}
